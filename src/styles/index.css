@@ -1,0 +1,34 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+/* Custom Backgrounds and Effects */
+.bg-grid-pattern {
+  background-image: 
+    linear-gradient(to right, rgba(34, 211, 238, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(34, 211, 238, 0.1) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #22d3ee, #3b82f6);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #06b6d4, #2563eb);
+}
